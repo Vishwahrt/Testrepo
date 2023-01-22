@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Build'){
+            steps {
+                echo 'Hello there' }
+             }
+        stage('deploy'){
+            steps {
+                echo 'Hello' }
+             }
+}
+}
